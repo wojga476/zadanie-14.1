@@ -1,0 +1,30 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: Wojtek
+  Date: 2018-07-06
+  Time: 12:00
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+  <head>
+    <title>Przeliczanie jednostek</title>
+  </head>
+  <body>
+  <h1>Przelicznik miar</h1>
+  <form method="post" action="/kalkulator" ><br>
+    <input type="text" name="metry" placeholder="metry" ><br>
+    <input type="text" name="centymetry" placeholder="centymetry"><br>
+    <input type="text" name="milimetry" placeholder="milimetry"><br>
+    <input type="submit" value="Oblicz" >
+  </form>
+  <h1>Przelicznik wag</h1>
+  <form method="post" action="/kalkulator"><br>
+
+    <input type="text" name="kilogramy" placeholder="kilogramy"><br>
+    <input type="text" name="gramy" placeholder="gramy"><br>
+    <input type="text" name="miligramy" placeholder="miligramy"><br>
+    <input type="submit" value="Oblicz" >
+  </form>
+  </body>
+</html>
